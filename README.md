@@ -1,11 +1,11 @@
-# 🧪 Projeto de Testes E2E - Cadastro Dafiti
+## Projeto de Testes E2E - Cadastro Dafiti
 
 Este projeto contém testes end-to-end (E2E) automatizados utilizando **Cypress**, **Cucumber (Gherkin)** e **Allure Reports**,  
 com o objetivo de validar o fluxo de **cadastro de usuário** no site da **Dafiti**.
 
 ---
 
-## 🔧 Pré-requisitos
+## Pré-requisitos
 
 - **Node**
 - **Visual Studio Code**
@@ -50,7 +50,6 @@ cypress/
 Clonar Repositório e Instalar as dependencias
 
 git clone https://github.com/seu-usuario/dafiti-cadastro-tests.git
-cd dafiti-cadastro-tests
 
 npm install
 
