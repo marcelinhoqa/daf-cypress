@@ -1,0 +1,12 @@
+node_modules/
+
+cypress/screenshots/
+cypress/videos/
+
+.cypress-cache/
+.cache/
+
+allure-results/
+allure-report/
+
+.vscode/
