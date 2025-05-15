@@ -1,0 +1,7 @@
+{
+  "nome": "{{person.fullName}}",
+  "email": "{{internet.email}}",
+  "cpf": "{{string.numeric(11)}}",
+  "senha": "Pastel.,1",
+  "dataNascimento": "06011988"
+}

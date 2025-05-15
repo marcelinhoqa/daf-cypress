@@ -1,62 +1,28 @@
-## Projeto de Testes E2E - Cadastro Dafiti
-
-Este projeto contém testes end-to-end (E2E) automatizados utilizando **Cypress**, **Cucumber (Gherkin)** e **Allure Reports**,  
-com o objetivo de validar o fluxo de **cadastro de usuário** no site da **Dafiti**.
-
----
-
 ## Pré-requisitos
 
-- **Node**
+- **Node v20.18.0 ou superior**
+- **Npm 11.1.0 ou superior**
 - **Visual Studio Code**
 - **Git**
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```plaintext
-cypress/
-├── e2e/
-│   └── features/
-│       ├── cadastro.feature       # Especificação do cenário em Gherkin
-│       └── cadastro.step.js       # Implementação dos steps
-├── support/
-│   ├── page/
-│   │   ├── CadastroPage.js        # Page Object do formulário de cadastro
-│   │   └── HomePage.js            # Page Object da home/login
-│   ├── commands.js                # Comandos customizados do Cypress
-│   └── e2e.js                     # Arquivo de suporte global
-├── cypress.config.js              # Configuração do Cypress
-├── package.json                   # Gerenciador de dependências e scripts
-├── .gitignore                     # Arquivos ignorados no versionamento
-└── README.md
-```
-
-## Tecnologias utilizadas
-
-- Cypress, Cucumber, Allure Report, Faker-br
-
--Plugins úteis:
-
-    cypress-network-idle — Aguarda até que a rede esteja ociosa
-
-    cypress-wait-until — Esperas personalizadas
-
-    cypress-xpath — Suporte a seletores XPath
-
 ## Como rodar
 
-Clonar Repositório e Instalar as dependencias
+    Etapa 1
+    Clonar Repositório e jogar o repositório no seu C:
+    O Windows tem algumas rotas com espaço como Área de Trabalho,
+    isso pode gerar algum erro na hora de executar alguns comandos como o comando do ALLURE
 
-git clone https://github.com/seu-usuario/dafiti-cadastro-tests.git
+    git clone https://github.com/seu-usuario/dafiti-cadastro-tests.git
+    ------------------------------------------------------------------------------------------------------------------
+    Etapa 2
 
-npm install
+    Depois de clonar o repositório, acessar a raiz do repositório e rodar os comandos para instalar as dependências.
 
-npm run test
+    npm install
+    npm install -g allure-commandline
 
-npm run report
+    npm run test
 
-```
-
-```
+    O Comando npm run test vai executar apenas 1 teste mas ele vai criar o report logo em seguida.

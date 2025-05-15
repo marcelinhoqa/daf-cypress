@@ -5,7 +5,7 @@ const env = require('./ambiente/homol.json');
 
 Cypress.Commands.add('visitHomol', () => {
   
-  cy.visit(env.padrao);
+  cy.visit(env.dafiti);
 });
 
 
